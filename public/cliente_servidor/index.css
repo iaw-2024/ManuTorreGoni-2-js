@@ -1,0 +1,43 @@
+body {
+    background-image: url("./imagen-fondo.jpg"); /* Ajusta la ruta de la imagen según su ubicación */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+div {
+    background-color: rgb(237, 234, 229);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+div:hover{
+    background-color:rgb(238, 226, 208) ;
+}
+
+div:last-child {
+    margin-bottom: 0;
+}
+
+.listado{
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
